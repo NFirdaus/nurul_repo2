@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+	<!ENTITY csvw 'http://www.w3.org/ns/csvw#'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns="http://example.org/data/22131_20174_20174_e.csv#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <csvw:TableGroup rdf:nodeID="autos1">
+    <csvw:table rdf:nodeID="autos2" />
+  </csvw:TableGroup>
+  <rdf:Description rdf:nodeID="autos10">
+    <ns0:Area rdf:resource="http://example.org/data/realestate#Aoihigashi" xmlns:ns0="http://example.org/data/realestate#" />
+    <ns1:City_Planning rdf:resource="http://example.org/data/realestate#Near_Commercial_District" xmlns:ns1="http://example.org/data/realestate#" />
+    <ns2:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns2="http://example.org/data/realestate#" />
+    <ns3:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns3="http://example.org/data/realestate#" />
+    <ns4:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns4="http://example.org/data/realestate#" />
+    <ns5:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns5="http://example.org/data/realestate#" />
+    <ns6:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns6="http://example.org/data/realestate#" />
+    <ns7:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns7="http://example.org/data/realestate#" />
+    <ns8:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns8="http://example.org/data/realestate#" />
+    <ns9:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns9="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="autos100">
+    <ns10:Area rdf:resource="http://example.org/data/realestate#Takaokahigashi" xmlns:ns10="http://example.org/data/realestate#" />
+    <ns11:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns11="http://example.org/data/realestate#" />
+    <ns12:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns12="http://example.org/data/realestate#" />
+    <ns13:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns13="http://example.org/data/realestate#" />
+    <ns14:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns14="http://example.org/data/realestate#" />
+    <ns15:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns15="http://example.org/data/realestate#" />
+    <ns16:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns16="http://example.org/data/realestate#" />
+    <ns17:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns17="http://example.org/data/realestate#" />
+    <ns18:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns18="http://example.org/data/realestate#" />
+    <ns19:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns19="http://example.org/data/realestate#" />
+    <ns20:Use xmlns:ns20="http://example.org/data/realestate#">House</ns20:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos101">
+    <csvw:describes rdf:nodeID="autos102" />
+    <csvw:rownum rdf:datatype="&xsd;integer">50</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=51" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos102">
+    <ns21:Area rdf:resource="http://example.org/data/realestate#Takaokahigashi" xmlns:ns21="http://example.org/data/realestate#" />
+    <ns22:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns22="http://example.org/data/realestate#" />
+    <ns23:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns23="http://example.org/data/realestate#" />
+    <ns24:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns24="http://example.org/data/realestate#" />
+    <ns25:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns25="http://example.org/data/realestate#" />
+    <ns26:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns26="http://example.org/data/realestate#" />
+    <ns27:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns27="http://example.org/data/realestate#" />
+    <ns28:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns28="http://example.org/data/realestate#" />
+    <ns29:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns29="http://example.org/data/realestate#" />
+    <ns30:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns30="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos103">
+    <csvw:describes rdf:nodeID="autos104" />
+    <csvw:rownum rdf:datatype="&xsd;integer">51</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=52" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos104">
+    <ns31:Area rdf:resource="http://example.org/data/realestate#Takamachi" xmlns:ns31="http://example.org/data/realestate#" />
+    <ns32:City_Planning rdf:resource="http://example.org/data/realestate#Category_2_Residential_District" xmlns:ns32="http://example.org/data/realestate#" />
+    <ns33:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns33="http://example.org/data/realestate#" />
+    <ns34:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns34="http://example.org/data/realestate#" />
+    <ns35:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#23" xmlns:ns35="http://example.org/data/realestate#" />
+    <ns36:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns36="http://example.org/data/realestate#" />
+    <ns37:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns37="http://example.org/data/realestate#" />
+    <ns38:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns38="http://example.org/data/realestate#" />
+    <ns39:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns39="http://example.org/data/realestate#" />
+    <ns40:Use xmlns:ns40="http://example.org/data/realestate#">House</ns40:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos105">
+    <csvw:describes rdf:nodeID="autos106" />
+    <csvw:rownum rdf:datatype="&xsd;integer">52</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=53" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos106">
+    <ns41:Area rdf:resource="http://example.org/data/realestate#Tamachi" xmlns:ns41="http://example.org/data/realestate#" />
+    <ns42:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns42="http://example.org/data/realestate#" />
+    <ns43:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns43="http://example.org/data/realestate#" />
+    <ns44:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns44="http://example.org/data/realestate#" />
+    <ns45:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#7" xmlns:ns45="http://example.org/data/realestate#" />
+    <ns46:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns46="http://example.org/data/realestate#" />
+    <ns47:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns47="http://example.org/data/realestate#" />
+    <ns48:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns48="http://example.org/data/realestate#" />
+    <ns49:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns49="http://example.org/data/realestate#" />
+    <ns50:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns50="http://example.org/data/realestate#" />
+    <ns51:Use xmlns:ns51="http://example.org/data/realestate#">Shop</ns51:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos107">
+    <csvw:describes rdf:nodeID="autos108" />
+    <csvw:rownum rdf:datatype="&xsd;integer">53</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=54" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos108">
+    <ns52:Area rdf:resource="http://example.org/data/realestate#Chuo" xmlns:ns52="http://example.org/data/realestate#" />
+    <ns53:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns53="http://example.org/data/realestate#" />
+    <ns54:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns54="http://example.org/data/realestate#" />
+    <ns55:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns55="http://example.org/data/realestate#" />
+    <ns56:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#12" xmlns:ns56="http://example.org/data/realestate#" />
+    <ns57:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns57="http://example.org/data/realestate#" />
+    <ns58:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns58="http://example.org/data/realestate#" />
+    <ns59:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns59="http://example.org/data/realestate#" />
+    <ns60:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns60="http://example.org/data/realestate#" />
+    <ns61:Use xmlns:ns61="http://example.org/data/realestate#">House</ns61:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos109">
+    <csvw:describes rdf:nodeID="autos110" />
+    <csvw:rownum rdf:datatype="&xsd;integer">54</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=55" />
+  </csvw:Row>
+  <csvw:Row rdf:nodeID="autos11">
+    <csvw:describes rdf:nodeID="autos12" />
+    <csvw:rownum rdf:datatype="&xsd;integer">5</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=6" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos110">
+    <ns62:Area rdf:resource="http://example.org/data/realestate#Chuo" xmlns:ns62="http://example.org/data/realestate#" />
+    <ns63:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns63="http://example.org/data/realestate#" />
+    <ns64:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns64="http://example.org/data/realestate#" />
+    <ns65:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns65="http://example.org/data/realestate#" />
+    <ns66:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#9" xmlns:ns66="http://example.org/data/realestate#" />
+    <ns67:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns67="http://example.org/data/realestate#" />
+    <ns68:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns68="http://example.org/data/realestate#" />
+    <ns69:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns69="http://example.org/data/realestate#" />
+    <ns70:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns70="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos111">
+    <csvw:describes rdf:nodeID="autos112" />
+    <csvw:rownum rdf:datatype="&xsd;integer">55</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=56" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos112">
+    <ns71:Area rdf:resource="http://example.org/data/realestate#Chuo" xmlns:ns71="http://example.org/data/realestate#" />
+    <ns72:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns72="http://example.org/data/realestate#" />
+    <ns73:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns73="http://example.org/data/realestate#" />
+    <ns74:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns74="http://example.org/data/realestate#" />
+    <ns75:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#10" xmlns:ns75="http://example.org/data/realestate#" />
+    <ns76:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns76="http://example.org/data/realestate#" />
+    <ns77:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns77="http://example.org/data/realestate#" />
+    <ns78:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns78="http://example.org/data/realestate#" />
+    <ns79:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns79="http://example.org/data/realestate#" />
+    <ns80:Use xmlns:ns80="http://example.org/data/realestate#">House</ns80:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos113">
+    <csvw:describes rdf:nodeID="autos114" />
+    <csvw:rownum rdf:datatype="&xsd;integer">56</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=57" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos114">
+    <ns81:Area rdf:resource="http://example.org/data/realestate#Terajimacho" xmlns:ns81="http://example.org/data/realestate#" />
+    <ns82:City_Planning rdf:resource="http://example.org/data/realestate#Near_Commercial_District" xmlns:ns82="http://example.org/data/realestate#" />
+    <ns83:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns83="http://example.org/data/realestate#" />
+    <ns84:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns84="http://example.org/data/realestate#" />
+    <ns85:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#11" xmlns:ns85="http://example.org/data/realestate#" />
+    <ns86:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns86="http://example.org/data/realestate#" />
+    <ns87:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns87="http://example.org/data/realestate#" />
+    <ns88:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns88="http://example.org/data/realestate#" />
+    <ns89:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns89="http://example.org/data/realestate#" />
+    <ns90:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns90="http://example.org/data/realestate#" />
+    <ns91:Use xmlns:ns91="http://example.org/data/realestate#">Shop, Other</ns91:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos115">
+    <csvw:describes rdf:nodeID="autos116" />
+    <csvw:rownum rdf:datatype="&xsd;integer">57</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=58" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos116">
+    <ns92:Area rdf:resource="http://example.org/data/realestate#Terajimacho" xmlns:ns92="http://example.org/data/realestate#" />
+    <ns93:City_Planning rdf:resource="http://example.org/data/realestate#Near_Commercial_District" xmlns:ns93="http://example.org/data/realestate#" />
+    <ns94:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns94="http://example.org/data/realestate#" />
+    <ns95:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns95="http://example.org/data/realestate#" />
+    <ns96:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#11" xmlns:ns96="http://example.org/data/realestate#" />
+    <ns97:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns97="http://example.org/data/realestate#" />
+    <ns98:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns98="http://example.org/data/realestate#" />
+    <ns99:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns99="http://example.org/data/realestate#" />
+    <ns100:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns100="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos117">
+    <csvw:describes rdf:nodeID="autos118" />
+    <csvw:rownum rdf:datatype="&xsd;integer">58</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=59" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos118">
+    <ns101:Area rdf:resource="http://example.org/data/realestate#Tenjimmachi" xmlns:ns101="http://example.org/data/realestate#" />
+    <ns102:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns102="http://example.org/data/realestate#" />
+    <ns103:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns103="http://example.org/data/realestate#" />
+    <ns104:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns104="http://example.org/data/realestate#" />
+    <ns105:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#26" xmlns:ns105="http://example.org/data/realestate#" />
+    <ns106:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns106="http://example.org/data/realestate#" />
+    <ns107:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns107="http://example.org/data/realestate#" />
+    <ns108:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns108="http://example.org/data/realestate#" />
+    <ns109:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns109="http://example.org/data/realestate#" />
+    <ns110:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns110="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos119">
+    <csvw:describes rdf:nodeID="autos120" />
+    <csvw:rownum rdf:datatype="&xsd;integer">59</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=60" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos12">
+    <ns111:Area rdf:resource="http://example.org/data/realestate#Asahicho" xmlns:ns111="http://example.org/data/realestate#" />
+    <ns112:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns112="http://example.org/data/realestate#" />
+    <ns113:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns113="http://example.org/data/realestate#" />
+    <ns114:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns114="http://example.org/data/realestate#" />
+    <ns115:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#4" xmlns:ns115="http://example.org/data/realestate#" />
+    <ns116:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns116="http://example.org/data/realestate#" />
+    <ns117:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns117="http://example.org/data/realestate#" />
+    <ns118:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns118="http://example.org/data/realestate#" />
+    <ns119:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns119="http://example.org/data/realestate#" />
+    <ns120:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns120="http://example.org/data/realestate#" />
+    <ns121:Use xmlns:ns121="http://example.org/data/realestate#">House, Shop</ns121:Use>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="autos120">
+    <ns122:Area rdf:resource="http://example.org/data/realestate#Tenjimmachi" xmlns:ns122="http://example.org/data/realestate#" />
+    <ns123:City_Planning rdf:resource="http://example.org/data/realestate#Near_Commercial_District" xmlns:ns123="http://example.org/data/realestate#" />
+    <ns124:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns124="http://example.org/data/realestate#" />
+    <ns125:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns125="http://example.org/data/realestate#" />
+    <ns126:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#25" xmlns:ns126="http://example.org/data/realestate#" />
+    <ns127:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns127="http://example.org/data/realestate#" />
+    <ns128:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns128="http://example.org/data/realestate#" />
+    <ns129:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns129="http://example.org/data/realestate#" />
+    <ns130:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns130="http://example.org/data/realestate#" />
+    <ns131:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns131="http://example.org/data/realestate#" />
+    <ns132:Use xmlns:ns132="http://example.org/data/realestate#">House, Shop</ns132:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos121">
+    <csvw:describes rdf:nodeID="autos122" />
+    <csvw:rownum rdf:datatype="&xsd;integer">60</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=61" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos122">
+    <ns133:Area rdf:resource="http://example.org/data/realestate#Tomitsukacho" xmlns:ns133="http://example.org/data/realestate#" />
+    <ns134:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Low_Rise_Residential_District" xmlns:ns134="http://example.org/data/realestate#" />
+    <ns135:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns135="http://example.org/data/realestate#" />
+    <ns136:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns136="http://example.org/data/realestate#" />
+    <ns137:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns137="http://example.org/data/realestate#" />
+    <ns138:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns138="http://example.org/data/realestate#" />
+    <ns139:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns139="http://example.org/data/realestate#" />
+    <ns140:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns140="http://example.org/data/realestate#" />
+    <ns141:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns141="http://example.org/data/realestate#" />
+    <ns142:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns142="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos123">
+    <csvw:describes rdf:nodeID="autos124" />
+    <csvw:rownum rdf:datatype="&xsd;integer">61</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=62" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos124">
+    <ns143:Area rdf:resource="http://example.org/data/realestate#Tomitsukacho" xmlns:ns143="http://example.org/data/realestate#" />
+    <ns144:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Low_Rise_Residential_District" xmlns:ns144="http://example.org/data/realestate#" />
+    <ns145:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns145="http://example.org/data/realestate#" />
+    <ns146:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns146="http://example.org/data/realestate#" />
+    <ns147:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns147="http://example.org/data/realestate#" />
+    <ns148:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns148="http://example.org/data/realestate#" />
+    <ns149:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns149="http://example.org/data/realestate#" />
+    <ns150:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns150="http://example.org/data/realestate#" />
+    <ns151:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns151="http://example.org/data/realestate#" />
+    <ns152:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns152="http://example.org/data/realestate#" />
+    <ns153:Use xmlns:ns153="http://example.org/data/realestate#">House</ns153:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos125">
+    <csvw:describes rdf:nodeID="autos126" />
+    <csvw:rownum rdf:datatype="&xsd;integer">62</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=63" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos126">
+    <ns154:Area rdf:resource="http://example.org/data/realestate#Tomitsukacho" xmlns:ns154="http://example.org/data/realestate#" />
+    <ns155:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns155="http://example.org/data/realestate#" />
+    <ns156:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns156="http://example.org/data/realestate#" />
+    <ns157:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns157="http://example.org/data/realestate#" />
+    <ns158:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns158="http://example.org/data/realestate#" />
+    <ns159:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns159="http://example.org/data/realestate#" />
+    <ns160:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns160="http://example.org/data/realestate#" />
+    <ns161:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns161="http://example.org/data/realestate#" />
+    <ns162:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns162="http://example.org/data/realestate#" />
+    <ns163:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns163="http://example.org/data/realestate#" />
+    <ns164:Use xmlns:ns164="http://example.org/data/realestate#">House</ns164:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos127">
+    <csvw:describes rdf:nodeID="autos128" />
+    <csvw:rownum rdf:datatype="&xsd;integer">63</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=64" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos128">
+    <ns165:Area rdf:resource="http://example.org/data/realestate#Nakazawacho" xmlns:ns165="http://example.org/data/realestate#" />
+    <ns166:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns166="http://example.org/data/realestate#" />
+    <ns167:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns167="http://example.org/data/realestate#" />
+    <ns168:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns168="http://example.org/data/realestate#" />
+    <ns169:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#28" xmlns:ns169="http://example.org/data/realestate#" />
+    <ns170:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns170="http://example.org/data/realestate#" />
+    <ns171:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns171="http://example.org/data/realestate#" />
+    <ns172:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns172="http://example.org/data/realestate#" />
+    <ns173:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns173="http://example.org/data/realestate#" />
+    <ns174:Use xmlns:ns174="http://example.org/data/realestate#">House</ns174:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos129">
+    <csvw:describes rdf:nodeID="autos130" />
+    <csvw:rownum rdf:datatype="&xsd;integer">64</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=65" />
+  </csvw:Row>
+  <csvw:Row rdf:nodeID="autos13">
+    <csvw:describes rdf:nodeID="autos14" />
+    <csvw:rownum rdf:datatype="&xsd;integer">6</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=7" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos130">
+    <ns175:Area rdf:resource="http://example.org/data/realestate#Nasubicho" xmlns:ns175="http://example.org/data/realestate#" />
+    <ns176:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns176="http://example.org/data/realestate#" />
+    <ns177:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns177="http://example.org/data/realestate#" />
+    <ns178:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns178="http://example.org/data/realestate#" />
+    <ns179:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns179="http://example.org/data/realestate#" />
+    <ns180:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns180="http://example.org/data/realestate#" />
+    <ns181:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns181="http://example.org/data/realestate#" />
+    <ns182:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns182="http://example.org/data/realestate#" />
+    <ns183:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns183="http://example.org/data/realestate#" />
+    <ns184:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns184="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos131">
+    <csvw:describes rdf:nodeID="autos132" />
+    <csvw:rownum rdf:datatype="&xsd;integer">65</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=66" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos132">
+    <ns185:Area rdf:resource="http://example.org/data/realestate#Nazukacho" xmlns:ns185="http://example.org/data/realestate#" />
+    <ns186:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns186="http://example.org/data/realestate#" />
+    <ns187:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns187="http://example.org/data/realestate#" />
+    <ns188:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns188="http://example.org/data/realestate#" />
+    <ns189:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#29" xmlns:ns189="http://example.org/data/realestate#" />
+    <ns190:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns190="http://example.org/data/realestate#" />
+    <ns191:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns191="http://example.org/data/realestate#" />
+    <ns192:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns192="http://example.org/data/realestate#" />
+    <ns193:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns193="http://example.org/data/realestate#" />
+    <ns194:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns194="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos133">
+    <csvw:describes rdf:nodeID="autos134" />
+    <csvw:rownum rdf:datatype="&xsd;integer">66</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=67" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos134">
+    <ns195:Area rdf:resource="http://example.org/data/realestate#Nishiasada" xmlns:ns195="http://example.org/data/realestate#" />
+    <ns196:City_Planning rdf:resource="http://example.org/data/realestate#Near_Commercial_District" xmlns:ns196="http://example.org/data/realestate#" />
+    <ns197:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns197="http://example.org/data/realestate#" />
+    <ns198:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns198="http://example.org/data/realestate#" />
+    <ns199:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#19" xmlns:ns199="http://example.org/data/realestate#" />
+    <ns200:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns200="http://example.org/data/realestate#" />
+    <ns201:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns201="http://example.org/data/realestate#" />
+    <ns202:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns202="http://example.org/data/realestate#" />
+    <ns203:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns203="http://example.org/data/realestate#" />
+    <ns204:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns204="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos135">
+    <csvw:describes rdf:nodeID="autos136" />
+    <csvw:rownum rdf:datatype="&xsd;integer">67</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=68" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos136">
+    <ns205:Area rdf:resource="http://example.org/data/realestate#Nishiibacho" xmlns:ns205="http://example.org/data/realestate#" />
+    <ns206:City_Planning rdf:resource="http://example.org/data/realestate#Semi_residential_District" xmlns:ns206="http://example.org/data/realestate#" />
+    <ns207:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns207="http://example.org/data/realestate#" />
+    <ns208:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns208="http://example.org/data/realestate#" />
+    <ns209:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns209="http://example.org/data/realestate#" />
+    <ns210:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns210="http://example.org/data/realestate#" />
+    <ns211:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns211="http://example.org/data/realestate#" />
+    <ns212:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns212="http://example.org/data/realestate#" />
+    <ns213:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns213="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos137">
+    <csvw:describes rdf:nodeID="autos138" />
+    <csvw:rownum rdf:datatype="&xsd;integer">68</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=69" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos138">
+    <ns214:Area rdf:resource="http://example.org/data/realestate#Nunohashi" xmlns:ns214="http://example.org/data/realestate#" />
+    <ns215:City_Planning rdf:resource="http://example.org/data/realestate#Category_2_Residential_District" xmlns:ns215="http://example.org/data/realestate#" />
+    <ns216:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns216="http://example.org/data/realestate#" />
+    <ns217:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns217="http://example.org/data/realestate#" />
+    <ns218:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns218="http://example.org/data/realestate#" />
+    <ns219:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns219="http://example.org/data/realestate#" />
+    <ns220:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns220="http://example.org/data/realestate#" />
+    <ns221:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns221="http://example.org/data/realestate#" />
+    <ns222:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns222="http://example.org/data/realestate#" />
+    <ns223:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns223="http://example.org/data/realestate#" />
+    <ns224:Use xmlns:ns224="http://example.org/data/realestate#">Housing Complex</ns224:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos139">
+    <csvw:describes rdf:nodeID="autos140" />
+    <csvw:rownum rdf:datatype="&xsd;integer">69</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=70" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos14">
+    <ns225:Area rdf:resource="http://example.org/data/realestate#Azukimochi" xmlns:ns225="http://example.org/data/realestate#" />
+    <ns226:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns226="http://example.org/data/realestate#" />
+    <ns227:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns227="http://example.org/data/realestate#" />
+    <ns228:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns228="http://example.org/data/realestate#" />
+    <ns229:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns229="http://example.org/data/realestate#" />
+    <ns230:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns230="http://example.org/data/realestate#" />
+    <ns231:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns231="http://example.org/data/realestate#" />
+    <ns232:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns232="http://example.org/data/realestate#" />
+    <ns233:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns233="http://example.org/data/realestate#" />
+    <ns234:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns234="http://example.org/data/realestate#" />
+    <ns235:Use xmlns:ns235="http://example.org/data/realestate#">House</ns235:Use>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="autos140">
+    <ns236:Area rdf:resource="http://example.org/data/realestate#Nunohashi" xmlns:ns236="http://example.org/data/realestate#" />
+    <ns237:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns237="http://example.org/data/realestate#" />
+    <ns238:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns238="http://example.org/data/realestate#" />
+    <ns239:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns239="http://example.org/data/realestate#" />
+    <ns240:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns240="http://example.org/data/realestate#" />
+    <ns241:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns241="http://example.org/data/realestate#" />
+    <ns242:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns242="http://example.org/data/realestate#" />
+    <ns243:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns243="http://example.org/data/realestate#" />
+    <ns244:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns244="http://example.org/data/realestate#" />
+    <ns245:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns245="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos141">
+    <csvw:describes rdf:nodeID="autos142" />
+    <csvw:rownum rdf:datatype="&xsd;integer">70</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=71" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos142">
+    <ns246:Area rdf:resource="http://example.org/data/realestate#Hagioka" xmlns:ns246="http://example.org/data/realestate#" />
+    <ns247:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns247="http://example.org/data/realestate#" />
+    <ns248:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns248="http://example.org/data/realestate#" />
+    <ns249:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns249="http://example.org/data/realestate#" />
+    <ns250:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns250="http://example.org/data/realestate#" />
+    <ns251:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns251="http://example.org/data/realestate#" />
+    <ns252:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns252="http://example.org/data/realestate#" />
+    <ns253:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns253="http://example.org/data/realestate#" />
+    <ns254:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns254="http://example.org/data/realestate#" />
+    <ns255:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns255="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos143">
+    <csvw:describes rdf:nodeID="autos144" />
+    <csvw:rownum rdf:datatype="&xsd;integer">71</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=72" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos144">
+    <ns256:Area rdf:resource="http://example.org/data/realestate#Hagioka" xmlns:ns256="http://example.org/data/realestate#" />
+    <ns257:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns257="http://example.org/data/realestate#" />
+    <ns258:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns258="http://example.org/data/realestate#" />
+    <ns259:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns259="http://example.org/data/realestate#" />
+    <ns260:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns260="http://example.org/data/realestate#" />
+    <ns261:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns261="http://example.org/data/realestate#" />
+    <ns262:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns262="http://example.org/data/realestate#" />
+    <ns263:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns263="http://example.org/data/realestate#" />
+    <ns264:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns264="http://example.org/data/realestate#" />
+    <ns265:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns265="http://example.org/data/realestate#" />
+    <ns266:Use xmlns:ns266="http://example.org/data/realestate#">House</ns266:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos145">
+    <csvw:describes rdf:nodeID="autos146" />
+    <csvw:rownum rdf:datatype="&xsd;integer">72</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=73" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos146">
+    <ns267:Area rdf:resource="http://example.org/data/realestate#Hanakawacho" xmlns:ns267="http://example.org/data/realestate#" />
+    <ns268:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns268="http://example.org/data/realestate#" />
+    <ns269:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns269="http://example.org/data/realestate#" />
+    <ns270:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns270="http://example.org/data/realestate#" />
+    <ns271:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns271="http://example.org/data/realestate#" />
+    <ns272:Type rdf:resource="http://example.org/data/realestate#Agricultural_Land" xmlns:ns272="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos147">
+    <csvw:describes rdf:nodeID="autos148" />
+    <csvw:rownum rdf:datatype="&xsd;integer">73</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=74" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos148">
+    <ns273:Area rdf:resource="http://example.org/data/realestate#Higashiiba" xmlns:ns273="http://example.org/data/realestate#" />
+    <ns274:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns274="http://example.org/data/realestate#" />
+    <ns275:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns275="http://example.org/data/realestate#" />
+    <ns276:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns276="http://example.org/data/realestate#" />
+    <ns277:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#21" xmlns:ns277="http://example.org/data/realestate#" />
+    <ns278:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns278="http://example.org/data/realestate#" />
+    <ns279:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns279="http://example.org/data/realestate#" />
+    <ns280:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns280="http://example.org/data/realestate#" />
+    <ns281:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns281="http://example.org/data/realestate#" />
+    <ns282:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns282="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos149">
+    <csvw:describes rdf:nodeID="autos150" />
+    <csvw:rownum rdf:datatype="&xsd;integer">74</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=75" />
+  </csvw:Row>
+  <csvw:Row rdf:nodeID="autos15">
+    <csvw:describes rdf:nodeID="autos16" />
+    <csvw:rownum rdf:datatype="&xsd;integer">7</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=8" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos150">
+    <ns283:Area rdf:resource="http://example.org/data/realestate#Higashiiba" xmlns:ns283="http://example.org/data/realestate#" />
+    <ns284:City_Planning rdf:resource="http://example.org/data/realestate#Category_2_Residential_District" xmlns:ns284="http://example.org/data/realestate#" />
+    <ns285:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns285="http://example.org/data/realestate#" />
+    <ns286:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns286="http://example.org/data/realestate#" />
+    <ns287:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns287="http://example.org/data/realestate#" />
+    <ns288:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns288="http://example.org/data/realestate#" />
+    <ns289:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns289="http://example.org/data/realestate#" />
+    <ns290:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns290="http://example.org/data/realestate#" />
+    <ns291:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns291="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos151">
+    <csvw:describes rdf:nodeID="autos152" />
+    <csvw:rownum rdf:datatype="&xsd;integer">75</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=76" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos152">
+    <ns292:Area rdf:resource="http://example.org/data/realestate#Hikuma" xmlns:ns292="http://example.org/data/realestate#" />
+    <ns293:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns293="http://example.org/data/realestate#" />
+    <ns294:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns294="http://example.org/data/realestate#" />
+    <ns295:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns295="http://example.org/data/realestate#" />
+    <ns296:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns296="http://example.org/data/realestate#" />
+    <ns297:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns297="http://example.org/data/realestate#" />
+    <ns298:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns298="http://example.org/data/realestate#" />
+    <ns299:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns299="http://example.org/data/realestate#" />
+    <ns300:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns300="http://example.org/data/realestate#" />
+    <ns301:Use xmlns:ns301="http://example.org/data/realestate#">House</ns301:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos153">
+    <csvw:describes rdf:nodeID="autos154" />
+    <csvw:rownum rdf:datatype="&xsd;integer">76</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=77" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos154">
+    <ns302:Area rdf:resource="http://example.org/data/realestate#Hikumacho" xmlns:ns302="http://example.org/data/realestate#" />
+    <ns303:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns303="http://example.org/data/realestate#" />
+    <ns304:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns304="http://example.org/data/realestate#" />
+    <ns305:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns305="http://example.org/data/realestate#" />
+    <ns306:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns306="http://example.org/data/realestate#" />
+    <ns307:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns307="http://example.org/data/realestate#" />
+    <ns308:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns308="http://example.org/data/realestate#" />
+    <ns309:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns309="http://example.org/data/realestate#" />
+    <ns310:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns310="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos155">
+    <csvw:describes rdf:nodeID="autos156" />
+    <csvw:rownum rdf:datatype="&xsd;integer">77</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=78" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos156">
+    <ns311:Area rdf:resource="http://example.org/data/realestate#Hirosawa" xmlns:ns311="http://example.org/data/realestate#" />
+    <ns312:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns312="http://example.org/data/realestate#" />
+    <ns313:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns313="http://example.org/data/realestate#" />
+    <ns314:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns314="http://example.org/data/realestate#" />
+    <ns315:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns315="http://example.org/data/realestate#" />
+    <ns316:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns316="http://example.org/data/realestate#" />
+    <ns317:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns317="http://example.org/data/realestate#" />
+    <ns318:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns318="http://example.org/data/realestate#" />
+    <ns319:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns319="http://example.org/data/realestate#" />
+    <ns320:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns320="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos157">
+    <csvw:describes rdf:nodeID="autos158" />
+    <csvw:rownum rdf:datatype="&xsd;integer">78</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=79" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos158">
+    <ns321:Area rdf:resource="http://example.org/data/realestate#Minamiasada" xmlns:ns321="http://example.org/data/realestate#" />
+    <ns322:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns322="http://example.org/data/realestate#" />
+    <ns323:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns323="http://example.org/data/realestate#" />
+    <ns324:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns324="http://example.org/data/realestate#" />
+    <ns325:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#21" xmlns:ns325="http://example.org/data/realestate#" />
+    <ns326:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns326="http://example.org/data/realestate#" />
+    <ns327:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns327="http://example.org/data/realestate#" />
+    <ns328:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns328="http://example.org/data/realestate#" />
+    <ns329:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns329="http://example.org/data/realestate#" />
+    <ns330:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns330="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos159">
+    <csvw:describes rdf:nodeID="autos160" />
+    <csvw:rownum rdf:datatype="&xsd;integer">79</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=80" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos16">
+    <ns331:Area rdf:resource="http://example.org/data/realestate#Izumi" xmlns:ns331="http://example.org/data/realestate#" />
+    <ns332:City_Planning rdf:resource="http://example.org/data/realestate#Near_Commercial_District" xmlns:ns332="http://example.org/data/realestate#" />
+    <ns333:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns333="http://example.org/data/realestate#" />
+    <ns334:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns334="http://example.org/data/realestate#" />
+    <ns335:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns335="http://example.org/data/realestate#" />
+    <ns336:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns336="http://example.org/data/realestate#" />
+    <ns337:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns337="http://example.org/data/realestate#" />
+    <ns338:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns338="http://example.org/data/realestate#" />
+    <ns339:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns339="http://example.org/data/realestate#" />
+    <ns340:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns340="http://example.org/data/realestate#" />
+    <ns341:Use xmlns:ns341="http://example.org/data/realestate#">Office</ns341:Use>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="autos160">
+    <ns342:Area rdf:resource="http://example.org/data/realestate#Mukojuku" xmlns:ns342="http://example.org/data/realestate#" />
+    <ns343:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns343="http://example.org/data/realestate#" />
+    <ns344:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns344="http://example.org/data/realestate#" />
+    <ns345:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns345="http://example.org/data/realestate#" />
+    <ns346:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#28" xmlns:ns346="http://example.org/data/realestate#" />
+    <ns347:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns347="http://example.org/data/realestate#" />
+    <ns348:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns348="http://example.org/data/realestate#" />
+    <ns349:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns349="http://example.org/data/realestate#" />
+    <ns350:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns350="http://example.org/data/realestate#" />
+    <ns351:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns351="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos161">
+    <csvw:describes rdf:nodeID="autos162" />
+    <csvw:rownum rdf:datatype="&xsd;integer">80</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=81" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos162">
+    <ns352:Area rdf:resource="http://example.org/data/realestate#Motohamacho" xmlns:ns352="http://example.org/data/realestate#" />
+    <ns353:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns353="http://example.org/data/realestate#" />
+    <ns354:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns354="http://example.org/data/realestate#" />
+    <ns355:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns355="http://example.org/data/realestate#" />
+    <ns356:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#19" xmlns:ns356="http://example.org/data/realestate#" />
+    <ns357:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns357="http://example.org/data/realestate#" />
+    <ns358:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns358="http://example.org/data/realestate#" />
+    <ns359:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns359="http://example.org/data/realestate#" />
+    <ns360:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns360="http://example.org/data/realestate#" />
+    <ns361:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns361="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos163">
+    <csvw:describes rdf:nodeID="autos164" />
+    <csvw:rownum rdf:datatype="&xsd;integer">81</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=82" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos164">
+    <ns362:Area rdf:resource="http://example.org/data/realestate#Motohamacho" xmlns:ns362="http://example.org/data/realestate#" />
+    <ns363:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns363="http://example.org/data/realestate#" />
+    <ns364:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns364="http://example.org/data/realestate#" />
+    <ns365:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns365="http://example.org/data/realestate#" />
+    <ns366:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#16" xmlns:ns366="http://example.org/data/realestate#" />
+    <ns367:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns367="http://example.org/data/realestate#" />
+    <ns368:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns368="http://example.org/data/realestate#" />
+    <ns369:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns369="http://example.org/data/realestate#" />
+    <ns370:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns370="http://example.org/data/realestate#" />
+    <ns371:Use xmlns:ns371="http://example.org/data/realestate#">House</ns371:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos165">
+    <csvw:describes rdf:nodeID="autos166" />
+    <csvw:rownum rdf:datatype="&xsd;integer">82</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=83" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos166">
+    <ns372:Area rdf:resource="http://example.org/data/realestate#Yamatecho" xmlns:ns372="http://example.org/data/realestate#" />
+    <ns373:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns373="http://example.org/data/realestate#" />
+    <ns374:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns374="http://example.org/data/realestate#" />
+    <ns375:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns375="http://example.org/data/realestate#" />
+    <ns376:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns376="http://example.org/data/realestate#" />
+    <ns377:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns377="http://example.org/data/realestate#" />
+    <ns378:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns378="http://example.org/data/realestate#" />
+    <ns379:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns379="http://example.org/data/realestate#" />
+    <ns380:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns380="http://example.org/data/realestate#" />
+    <ns381:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns381="http://example.org/data/realestate#" />
+    <ns382:Use xmlns:ns382="http://example.org/data/realestate#">House</ns382:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos167">
+    <csvw:describes rdf:nodeID="autos168" />
+    <csvw:rownum rdf:datatype="&xsd;integer">83</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=84" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos168">
+    <ns383:Area rdf:resource="http://example.org/data/realestate#Yamatecho" xmlns:ns383="http://example.org/data/realestate#" />
+    <ns384:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns384="http://example.org/data/realestate#" />
+    <ns385:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns385="http://example.org/data/realestate#" />
+    <ns386:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns386="http://example.org/data/realestate#" />
+    <ns387:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns387="http://example.org/data/realestate#" />
+    <ns388:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns388="http://example.org/data/realestate#" />
+    <ns389:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns389="http://example.org/data/realestate#" />
+    <ns390:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns390="http://example.org/data/realestate#" />
+    <ns391:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns391="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos169">
+    <csvw:describes rdf:nodeID="autos170" />
+    <csvw:rownum rdf:datatype="&xsd;integer">84</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=85" />
+  </csvw:Row>
+  <csvw:Row rdf:nodeID="autos17">
+    <csvw:describes rdf:nodeID="autos18" />
+    <csvw:rownum rdf:datatype="&xsd;integer">8</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=9" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos170">
+    <ns392:Area rdf:resource="http://example.org/data/realestate#Wagocho" xmlns:ns392="http://example.org/data/realestate#" />
+    <ns393:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Low_Rise_Residential_District" xmlns:ns393="http://example.org/data/realestate#" />
+    <ns394:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns394="http://example.org/data/realestate#" />
+    <ns395:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns395="http://example.org/data/realestate#" />
+    <ns396:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns396="http://example.org/data/realestate#" />
+    <ns397:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns397="http://example.org/data/realestate#" />
+    <ns398:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns398="http://example.org/data/realestate#" />
+    <ns399:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns399="http://example.org/data/realestate#" />
+    <ns400:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns400="http://example.org/data/realestate#" />
+    <ns401:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns401="http://example.org/data/realestate#" />
+    <ns402:Use xmlns:ns402="http://example.org/data/realestate#">Housing Complex</ns402:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos171">
+    <csvw:describes rdf:nodeID="autos172" />
+    <csvw:rownum rdf:datatype="&xsd;integer">85</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=86" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos172">
+    <ns403:Area rdf:resource="http://example.org/data/realestate#Wagocho" xmlns:ns403="http://example.org/data/realestate#" />
+    <ns404:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns404="http://example.org/data/realestate#" />
+    <ns405:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns405="http://example.org/data/realestate#" />
+    <ns406:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns406="http://example.org/data/realestate#" />
+    <ns407:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns407="http://example.org/data/realestate#" />
+    <ns408:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns408="http://example.org/data/realestate#" />
+    <ns409:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns409="http://example.org/data/realestate#" />
+    <ns410:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns410="http://example.org/data/realestate#" />
+    <ns411:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns411="http://example.org/data/realestate#" />
+    <ns412:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns412="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos173">
+    <csvw:describes rdf:nodeID="autos174" />
+    <csvw:rownum rdf:datatype="&xsd;integer">86</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=87" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos174">
+    <ns413:Area rdf:resource="http://example.org/data/realestate#Wagocho" xmlns:ns413="http://example.org/data/realestate#" />
+    <ns414:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns414="http://example.org/data/realestate#" />
+    <ns415:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns415="http://example.org/data/realestate#" />
+    <ns416:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns416="http://example.org/data/realestate#" />
+    <ns417:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns417="http://example.org/data/realestate#" />
+    <ns418:Type rdf:resource="http://example.org/data/realestate#Agricultural_Land" xmlns:ns418="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos175">
+    <csvw:describes rdf:nodeID="autos176" />
+    <csvw:rownum rdf:datatype="&xsd;integer">87</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=88" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos176">
+    <ns419:Area rdf:resource="http://example.org/data/realestate#Wajiyama" xmlns:ns419="http://example.org/data/realestate#" />
+    <ns420:City_Planning rdf:resource="http://example.org/data/realestate#Category_2_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns420="http://example.org/data/realestate#" />
+    <ns421:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns421="http://example.org/data/realestate#" />
+    <ns422:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns422="http://example.org/data/realestate#" />
+    <ns423:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns423="http://example.org/data/realestate#" />
+    <ns424:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns424="http://example.org/data/realestate#" />
+    <ns425:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns425="http://example.org/data/realestate#" />
+    <ns426:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns426="http://example.org/data/realestate#" />
+    <ns427:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns427="http://example.org/data/realestate#" />
+    <ns428:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns428="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos177">
+    <csvw:describes rdf:nodeID="autos178" />
+    <csvw:rownum rdf:datatype="&xsd;integer">88</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=89" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos178">
+    <ns429:Area rdf:resource="http://example.org/data/realestate#Wajiyama" xmlns:ns429="http://example.org/data/realestate#" />
+    <ns430:City_Planning rdf:resource="http://example.org/data/realestate#Category_2_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns430="http://example.org/data/realestate#" />
+    <ns431:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns431="http://example.org/data/realestate#" />
+    <ns432:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns432="http://example.org/data/realestate#" />
+    <ns433:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns433="http://example.org/data/realestate#" />
+    <ns434:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns434="http://example.org/data/realestate#" />
+    <ns435:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns435="http://example.org/data/realestate#" />
+    <ns436:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns436="http://example.org/data/realestate#" />
+    <ns437:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns437="http://example.org/data/realestate#" />
+    <ns438:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns438="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="autos18">
+    <ns439:Area rdf:resource="http://example.org/data/realestate#Izumi" xmlns:ns439="http://example.org/data/realestate#" />
+    <ns440:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns440="http://example.org/data/realestate#" />
+    <ns441:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns441="http://example.org/data/realestate#" />
+    <ns442:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns442="http://example.org/data/realestate#" />
+    <ns443:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns443="http://example.org/data/realestate#" />
+    <ns444:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns444="http://example.org/data/realestate#" />
+    <ns445:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns445="http://example.org/data/realestate#" />
+    <ns446:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns446="http://example.org/data/realestate#" />
+    <ns447:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns447="http://example.org/data/realestate#" />
+    <ns448:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns448="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos19">
+    <csvw:describes rdf:nodeID="autos20" />
+    <csvw:rownum rdf:datatype="&xsd;integer">9</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=10" />
+  </csvw:Row>
+  <csvw:Table rdf:nodeID="autos2">
+    <csvw:row rdf:nodeID="autos101" />
+    <csvw:row rdf:nodeID="autos103" />
+    <csvw:row rdf:nodeID="autos105" />
+    <csvw:row rdf:nodeID="autos107" />
+    <csvw:row rdf:nodeID="autos109" />
+    <csvw:row rdf:nodeID="autos11" />
+    <csvw:row rdf:nodeID="autos111" />
+    <csvw:row rdf:nodeID="autos113" />
+    <csvw:row rdf:nodeID="autos115" />
+    <csvw:row rdf:nodeID="autos117" />
+    <csvw:row rdf:nodeID="autos119" />
+    <csvw:row rdf:nodeID="autos121" />
+    <csvw:row rdf:nodeID="autos123" />
+    <csvw:row rdf:nodeID="autos125" />
+    <csvw:row rdf:nodeID="autos127" />
+    <csvw:row rdf:nodeID="autos129" />
+    <csvw:row rdf:nodeID="autos13" />
+    <csvw:row rdf:nodeID="autos131" />
+    <csvw:row rdf:nodeID="autos133" />
+    <csvw:row rdf:nodeID="autos135" />
+    <csvw:row rdf:nodeID="autos137" />
+    <csvw:row rdf:nodeID="autos139" />
+    <csvw:row rdf:nodeID="autos141" />
+    <csvw:row rdf:nodeID="autos143" />
+    <csvw:row rdf:nodeID="autos145" />
+    <csvw:row rdf:nodeID="autos147" />
+    <csvw:row rdf:nodeID="autos149" />
+    <csvw:row rdf:nodeID="autos15" />
+    <csvw:row rdf:nodeID="autos151" />
+    <csvw:row rdf:nodeID="autos153" />
+    <csvw:row rdf:nodeID="autos155" />
+    <csvw:row rdf:nodeID="autos157" />
+    <csvw:row rdf:nodeID="autos159" />
+    <csvw:row rdf:nodeID="autos161" />
+    <csvw:row rdf:nodeID="autos163" />
+    <csvw:row rdf:nodeID="autos165" />
+    <csvw:row rdf:nodeID="autos167" />
+    <csvw:row rdf:nodeID="autos169" />
+    <csvw:row rdf:nodeID="autos17" />
+    <csvw:row rdf:nodeID="autos171" />
+    <csvw:row rdf:nodeID="autos173" />
+    <csvw:row rdf:nodeID="autos175" />
+    <csvw:row rdf:nodeID="autos177" />
+    <csvw:row rdf:nodeID="autos19" />
+    <csvw:row rdf:nodeID="autos21" />
+    <csvw:row rdf:nodeID="autos23" />
+    <csvw:row rdf:nodeID="autos25" />
+    <csvw:row rdf:nodeID="autos27" />
+    <csvw:row rdf:nodeID="autos29" />
+    <csvw:row rdf:nodeID="autos3" />
+    <csvw:row rdf:nodeID="autos31" />
+    <csvw:row rdf:nodeID="autos33" />
+    <csvw:row rdf:nodeID="autos35" />
+    <csvw:row rdf:nodeID="autos37" />
+    <csvw:row rdf:nodeID="autos39" />
+    <csvw:row rdf:nodeID="autos41" />
+    <csvw:row rdf:nodeID="autos43" />
+    <csvw:row rdf:nodeID="autos45" />
+    <csvw:row rdf:nodeID="autos47" />
+    <csvw:row rdf:nodeID="autos49" />
+    <csvw:row rdf:nodeID="autos5" />
+    <csvw:row rdf:nodeID="autos51" />
+    <csvw:row rdf:nodeID="autos53" />
+    <csvw:row rdf:nodeID="autos55" />
+    <csvw:row rdf:nodeID="autos57" />
+    <csvw:row rdf:nodeID="autos59" />
+    <csvw:row rdf:nodeID="autos61" />
+    <csvw:row rdf:nodeID="autos63" />
+    <csvw:row rdf:nodeID="autos65" />
+    <csvw:row rdf:nodeID="autos67" />
+    <csvw:row rdf:nodeID="autos69" />
+    <csvw:row rdf:nodeID="autos7" />
+    <csvw:row rdf:nodeID="autos71" />
+    <csvw:row rdf:nodeID="autos73" />
+    <csvw:row rdf:nodeID="autos75" />
+    <csvw:row rdf:nodeID="autos77" />
+    <csvw:row rdf:nodeID="autos79" />
+    <csvw:row rdf:nodeID="autos81" />
+    <csvw:row rdf:nodeID="autos83" />
+    <csvw:row rdf:nodeID="autos85" />
+    <csvw:row rdf:nodeID="autos87" />
+    <csvw:row rdf:nodeID="autos89" />
+    <csvw:row rdf:nodeID="autos9" />
+    <csvw:row rdf:nodeID="autos91" />
+    <csvw:row rdf:nodeID="autos93" />
+    <csvw:row rdf:nodeID="autos95" />
+    <csvw:row rdf:nodeID="autos97" />
+    <csvw:row rdf:nodeID="autos99" />
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#" />
+  </csvw:Table>
+  <rdf:Description rdf:nodeID="autos20">
+    <ns449:Area rdf:resource="http://example.org/data/realestate#Itayamachi" xmlns:ns449="http://example.org/data/realestate#" />
+    <ns450:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns450="http://example.org/data/realestate#" />
+    <ns451:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns451="http://example.org/data/realestate#" />
+    <ns452:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns452="http://example.org/data/realestate#" />
+    <ns453:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#8" xmlns:ns453="http://example.org/data/realestate#" />
+    <ns454:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns454="http://example.org/data/realestate#" />
+    <ns455:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns455="http://example.org/data/realestate#" />
+    <ns456:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns456="http://example.org/data/realestate#" />
+    <ns457:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns457="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos21">
+    <csvw:describes rdf:nodeID="autos22" />
+    <csvw:rownum rdf:datatype="&xsd;integer">10</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=11" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos22">
+    <ns458:Area rdf:resource="http://example.org/data/realestate#Itayamachi" xmlns:ns458="http://example.org/data/realestate#" />
+    <ns459:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns459="http://example.org/data/realestate#" />
+    <ns460:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns460="http://example.org/data/realestate#" />
+    <ns461:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns461="http://example.org/data/realestate#" />
+    <ns462:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#5" xmlns:ns462="http://example.org/data/realestate#" />
+    <ns463:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns463="http://example.org/data/realestate#" />
+    <ns464:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns464="http://example.org/data/realestate#" />
+    <ns465:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns465="http://example.org/data/realestate#" />
+    <ns466:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns466="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos23">
+    <csvw:describes rdf:nodeID="autos24" />
+    <csvw:rownum rdf:datatype="&xsd;integer">11</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=12" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos24">
+    <ns467:Area rdf:resource="http://example.org/data/realestate#Ebitsukacho" xmlns:ns467="http://example.org/data/realestate#" />
+    <ns468:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns468="http://example.org/data/realestate#" />
+    <ns469:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns469="http://example.org/data/realestate#" />
+    <ns470:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns470="http://example.org/data/realestate#" />
+    <ns471:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#13" xmlns:ns471="http://example.org/data/realestate#" />
+    <ns472:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns472="http://example.org/data/realestate#" />
+    <ns473:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns473="http://example.org/data/realestate#" />
+    <ns474:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns474="http://example.org/data/realestate#" />
+    <ns475:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns475="http://example.org/data/realestate#" />
+    <ns476:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns476="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos25">
+    <csvw:describes rdf:nodeID="autos26" />
+    <csvw:rownum rdf:datatype="&xsd;integer">12</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=13" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos26">
+    <ns477:Area rdf:resource="http://example.org/data/realestate#Kamijima" xmlns:ns477="http://example.org/data/realestate#" />
+    <ns478:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns478="http://example.org/data/realestate#" />
+    <ns479:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns479="http://example.org/data/realestate#" />
+    <ns480:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns480="http://example.org/data/realestate#" />
+    <ns481:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns481="http://example.org/data/realestate#" />
+    <ns482:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns482="http://example.org/data/realestate#" />
+    <ns483:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns483="http://example.org/data/realestate#" />
+    <ns484:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns484="http://example.org/data/realestate#" />
+    <ns485:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns485="http://example.org/data/realestate#" />
+    <ns486:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns486="http://example.org/data/realestate#" />
+    <ns487:Use xmlns:ns487="http://example.org/data/realestate#">House</ns487:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos27">
+    <csvw:describes rdf:nodeID="autos28" />
+    <csvw:rownum rdf:datatype="&xsd;integer">13</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=14" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos28">
+    <ns488:Area rdf:resource="http://example.org/data/realestate#Kamijima" xmlns:ns488="http://example.org/data/realestate#" />
+    <ns489:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns489="http://example.org/data/realestate#" />
+    <ns490:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns490="http://example.org/data/realestate#" />
+    <ns491:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns491="http://example.org/data/realestate#" />
+    <ns492:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns492="http://example.org/data/realestate#" />
+    <ns493:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns493="http://example.org/data/realestate#" />
+    <ns494:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns494="http://example.org/data/realestate#" />
+    <ns495:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns495="http://example.org/data/realestate#" />
+    <ns496:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns496="http://example.org/data/realestate#" />
+    <ns497:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns497="http://example.org/data/realestate#" />
+    <ns498:Use xmlns:ns498="http://example.org/data/realestate#">House</ns498:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos29">
+    <csvw:describes rdf:nodeID="autos30" />
+    <csvw:rownum rdf:datatype="&xsd;integer">14</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=15" />
+  </csvw:Row>
+  <csvw:Row rdf:nodeID="autos3">
+    <csvw:describes rdf:nodeID="autos4" />
+    <csvw:rownum rdf:datatype="&xsd;integer">1</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=2" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos30">
+    <ns499:Area rdf:resource="http://example.org/data/realestate#Kamijima" xmlns:ns499="http://example.org/data/realestate#" />
+    <ns500:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns500="http://example.org/data/realestate#" />
+    <ns501:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns501="http://example.org/data/realestate#" />
+    <ns502:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns502="http://example.org/data/realestate#" />
+    <ns503:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns503="http://example.org/data/realestate#" />
+    <ns504:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns504="http://example.org/data/realestate#" />
+    <ns505:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns505="http://example.org/data/realestate#" />
+    <ns506:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns506="http://example.org/data/realestate#" />
+    <ns507:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns507="http://example.org/data/realestate#" />
+    <ns508:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns508="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos31">
+    <csvw:describes rdf:nodeID="autos32" />
+    <csvw:rownum rdf:datatype="&xsd;integer">15</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=16" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos32">
+    <ns509:Area rdf:resource="http://example.org/data/realestate#Kamijima" xmlns:ns509="http://example.org/data/realestate#" />
+    <ns510:City_Planning rdf:resource="http://example.org/data/realestate#Semi_residential_District" xmlns:ns510="http://example.org/data/realestate#" />
+    <ns511:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns511="http://example.org/data/realestate#" />
+    <ns512:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns512="http://example.org/data/realestate#" />
+    <ns513:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns513="http://example.org/data/realestate#" />
+    <ns514:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns514="http://example.org/data/realestate#" />
+    <ns515:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns515="http://example.org/data/realestate#" />
+    <ns516:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns516="http://example.org/data/realestate#" />
+    <ns517:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns517="http://example.org/data/realestate#" />
+    <ns518:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns518="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos33">
+    <csvw:describes rdf:nodeID="autos34" />
+    <csvw:rownum rdf:datatype="&xsd;integer">16</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=17" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos34">
+    <ns519:Area rdf:resource="http://example.org/data/realestate#Kamijima" xmlns:ns519="http://example.org/data/realestate#" />
+    <ns520:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns520="http://example.org/data/realestate#" />
+    <ns521:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns521="http://example.org/data/realestate#" />
+    <ns522:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns522="http://example.org/data/realestate#" />
+    <ns523:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns523="http://example.org/data/realestate#" />
+    <ns524:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns524="http://example.org/data/realestate#" />
+    <ns525:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns525="http://example.org/data/realestate#" />
+    <ns526:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns526="http://example.org/data/realestate#" />
+    <ns527:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns527="http://example.org/data/realestate#" />
+    <ns528:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns528="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos35">
+    <csvw:describes rdf:nodeID="autos36" />
+    <csvw:rownum rdf:datatype="&xsd;integer">17</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=18" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos36">
+    <ns529:Area rdf:resource="http://example.org/data/realestate#Kamidamachi" xmlns:ns529="http://example.org/data/realestate#" />
+    <ns530:City_Planning rdf:resource="http://example.org/data/realestate#Industrial_District" xmlns:ns530="http://example.org/data/realestate#" />
+    <ns531:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns531="http://example.org/data/realestate#" />
+    <ns532:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns532="http://example.org/data/realestate#" />
+    <ns533:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns533="http://example.org/data/realestate#" />
+    <ns534:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns534="http://example.org/data/realestate#" />
+    <ns535:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns535="http://example.org/data/realestate#" />
+    <ns536:Region rdf:resource="http://example.org/data/realestate#Industrial_Area" xmlns:ns536="http://example.org/data/realestate#" />
+    <ns537:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns537="http://example.org/data/realestate#" />
+    <ns538:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns538="http://example.org/data/realestate#" />
+    <ns539:Use xmlns:ns539="http://example.org/data/realestate#">Factory</ns539:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos37">
+    <csvw:describes rdf:nodeID="autos38" />
+    <csvw:rownum rdf:datatype="&xsd;integer">18</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=19" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos38">
+    <ns540:Area rdf:resource="http://example.org/data/realestate#Kamidamachi" xmlns:ns540="http://example.org/data/realestate#" />
+    <ns541:City_Planning rdf:resource="http://example.org/data/realestate#Industrial_District" xmlns:ns541="http://example.org/data/realestate#" />
+    <ns542:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns542="http://example.org/data/realestate#" />
+    <ns543:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns543="http://example.org/data/realestate#" />
+    <ns544:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#29" xmlns:ns544="http://example.org/data/realestate#" />
+    <ns545:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns545="http://example.org/data/realestate#" />
+    <ns546:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns546="http://example.org/data/realestate#" />
+    <ns547:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns547="http://example.org/data/realestate#" />
+    <ns548:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns548="http://example.org/data/realestate#" />
+    <ns549:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns549="http://example.org/data/realestate#" />
+    <ns550:Use xmlns:ns550="http://example.org/data/realestate#">House, Office</ns550:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos39">
+    <csvw:describes rdf:nodeID="autos40" />
+    <csvw:rownum rdf:datatype="&xsd;integer">19</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=20" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos4">
+    <ns551:Area rdf:resource="http://example.org/data/realestate#Aoinishi" xmlns:ns551="http://example.org/data/realestate#" />
+    <ns552:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns552="http://example.org/data/realestate#" />
+    <ns553:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns553="http://example.org/data/realestate#" />
+    <ns554:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns554="http://example.org/data/realestate#" />
+    <ns555:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns555="http://example.org/data/realestate#" />
+    <ns556:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns556="http://example.org/data/realestate#" />
+    <ns557:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns557="http://example.org/data/realestate#" />
+    <ns558:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns558="http://example.org/data/realestate#" />
+    <ns559:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns559="http://example.org/data/realestate#" />
+    <ns560:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns560="http://example.org/data/realestate#" />
+    <ns561:Use xmlns:ns561="http://example.org/data/realestate#">House</ns561:Use>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="autos40">
+    <ns562:Area rdf:resource="http://example.org/data/realestate#Kamidamachi" xmlns:ns562="http://example.org/data/realestate#" />
+    <ns563:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns563="http://example.org/data/realestate#" />
+    <ns564:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns564="http://example.org/data/realestate#" />
+    <ns565:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns565="http://example.org/data/realestate#" />
+    <ns566:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#28" xmlns:ns566="http://example.org/data/realestate#" />
+    <ns567:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns567="http://example.org/data/realestate#" />
+    <ns568:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns568="http://example.org/data/realestate#" />
+    <ns569:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns569="http://example.org/data/realestate#" />
+    <ns570:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns570="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos41">
+    <csvw:describes rdf:nodeID="autos42" />
+    <csvw:rownum rdf:datatype="&xsd;integer">20</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=21" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos42">
+    <ns571:Area rdf:resource="http://example.org/data/realestate#Kamoe" xmlns:ns571="http://example.org/data/realestate#" />
+    <ns572:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns572="http://example.org/data/realestate#" />
+    <ns573:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns573="http://example.org/data/realestate#" />
+    <ns574:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns574="http://example.org/data/realestate#" />
+    <ns575:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#24" xmlns:ns575="http://example.org/data/realestate#" />
+    <ns576:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns576="http://example.org/data/realestate#" />
+    <ns577:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns577="http://example.org/data/realestate#" />
+    <ns578:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns578="http://example.org/data/realestate#" />
+    <ns579:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns579="http://example.org/data/realestate#" />
+    <ns580:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns580="http://example.org/data/realestate#" />
+    <ns581:Use xmlns:ns581="http://example.org/data/realestate#">Office</ns581:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos43">
+    <csvw:describes rdf:nodeID="autos44" />
+    <csvw:rownum rdf:datatype="&xsd;integer">21</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=22" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos44">
+    <ns582:Area rdf:resource="http://example.org/data/realestate#Kamoe" xmlns:ns582="http://example.org/data/realestate#" />
+    <ns583:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns583="http://example.org/data/realestate#" />
+    <ns584:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns584="http://example.org/data/realestate#" />
+    <ns585:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns585="http://example.org/data/realestate#" />
+    <ns586:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#29" xmlns:ns586="http://example.org/data/realestate#" />
+    <ns587:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns587="http://example.org/data/realestate#" />
+    <ns588:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns588="http://example.org/data/realestate#" />
+    <ns589:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns589="http://example.org/data/realestate#" />
+    <ns590:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns590="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos45">
+    <csvw:describes rdf:nodeID="autos46" />
+    <csvw:rownum rdf:datatype="&xsd;integer">22</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=23" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos46">
+    <ns591:Area rdf:resource="http://example.org/data/realestate#Kamoe" xmlns:ns591="http://example.org/data/realestate#" />
+    <ns592:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns592="http://example.org/data/realestate#" />
+    <ns593:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns593="http://example.org/data/realestate#" />
+    <ns594:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns594="http://example.org/data/realestate#" />
+    <ns595:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#26" xmlns:ns595="http://example.org/data/realestate#" />
+    <ns596:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns596="http://example.org/data/realestate#" />
+    <ns597:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns597="http://example.org/data/realestate#" />
+    <ns598:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns598="http://example.org/data/realestate#" />
+    <ns599:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns599="http://example.org/data/realestate#" />
+    <ns600:Use xmlns:ns600="http://example.org/data/realestate#">House</ns600:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos47">
+    <csvw:describes rdf:nodeID="autos48" />
+    <csvw:rownum rdf:datatype="&xsd;integer">23</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=24" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos48">
+    <ns601:Area rdf:resource="http://example.org/data/realestate#Kamoe" xmlns:ns601="http://example.org/data/realestate#" />
+    <ns602:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns602="http://example.org/data/realestate#" />
+    <ns603:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns603="http://example.org/data/realestate#" />
+    <ns604:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns604="http://example.org/data/realestate#" />
+    <ns605:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns605="http://example.org/data/realestate#" />
+    <ns606:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns606="http://example.org/data/realestate#" />
+    <ns607:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns607="http://example.org/data/realestate#" />
+    <ns608:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns608="http://example.org/data/realestate#" />
+    <ns609:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns609="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos49">
+    <csvw:describes rdf:nodeID="autos50" />
+    <csvw:rownum rdf:datatype="&xsd;integer">24</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=25" />
+  </csvw:Row>
+  <csvw:Row rdf:nodeID="autos5">
+    <csvw:describes rdf:nodeID="autos6" />
+    <csvw:rownum rdf:datatype="&xsd;integer">2</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=3" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos50">
+    <ns610:Area rdf:resource="http://example.org/data/realestate#Kitaterajimacho" xmlns:ns610="http://example.org/data/realestate#" />
+    <ns611:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns611="http://example.org/data/realestate#" />
+    <ns612:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns612="http://example.org/data/realestate#" />
+    <ns613:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns613="http://example.org/data/realestate#" />
+    <ns614:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#10" xmlns:ns614="http://example.org/data/realestate#" />
+    <ns615:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns615="http://example.org/data/realestate#" />
+    <ns616:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns616="http://example.org/data/realestate#" />
+    <ns617:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns617="http://example.org/data/realestate#" />
+    <ns618:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns618="http://example.org/data/realestate#" />
+    <ns619:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns619="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos51">
+    <csvw:describes rdf:nodeID="autos52" />
+    <csvw:rownum rdf:datatype="&xsd;integer">25</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=26" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos52">
+    <ns620:Area rdf:resource="http://example.org/data/realestate#Kidocho" xmlns:ns620="http://example.org/data/realestate#" />
+    <ns621:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns621="http://example.org/data/realestate#" />
+    <ns622:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns622="http://example.org/data/realestate#" />
+    <ns623:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns623="http://example.org/data/realestate#" />
+    <ns624:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#15" xmlns:ns624="http://example.org/data/realestate#" />
+    <ns625:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns625="http://example.org/data/realestate#" />
+    <ns626:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns626="http://example.org/data/realestate#" />
+    <ns627:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns627="http://example.org/data/realestate#" />
+    <ns628:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns628="http://example.org/data/realestate#" />
+    <ns629:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns629="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos53">
+    <csvw:describes rdf:nodeID="autos54" />
+    <csvw:rownum rdf:datatype="&xsd;integer">26</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=27" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos54">
+    <ns630:Area rdf:resource="http://example.org/data/realestate#Saiwai" xmlns:ns630="http://example.org/data/realestate#" />
+    <ns631:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns631="http://example.org/data/realestate#" />
+    <ns632:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns632="http://example.org/data/realestate#" />
+    <ns633:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns633="http://example.org/data/realestate#" />
+    <ns634:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns634="http://example.org/data/realestate#" />
+    <ns635:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns635="http://example.org/data/realestate#" />
+    <ns636:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns636="http://example.org/data/realestate#" />
+    <ns637:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns637="http://example.org/data/realestate#" />
+    <ns638:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns638="http://example.org/data/realestate#" />
+    <ns639:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns639="http://example.org/data/realestate#" />
+    <ns640:Use xmlns:ns640="http://example.org/data/realestate#">House</ns640:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos55">
+    <csvw:describes rdf:nodeID="autos56" />
+    <csvw:rownum rdf:datatype="&xsd;integer">27</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=28" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos56">
+    <ns641:Area rdf:resource="http://example.org/data/realestate#Saiwai" xmlns:ns641="http://example.org/data/realestate#" />
+    <ns642:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Low_Rise_Residential_District" xmlns:ns642="http://example.org/data/realestate#" />
+    <ns643:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns643="http://example.org/data/realestate#" />
+    <ns644:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns644="http://example.org/data/realestate#" />
+    <ns645:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns645="http://example.org/data/realestate#" />
+    <ns646:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns646="http://example.org/data/realestate#" />
+    <ns647:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns647="http://example.org/data/realestate#" />
+    <ns648:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns648="http://example.org/data/realestate#" />
+    <ns649:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns649="http://example.org/data/realestate#" />
+    <ns650:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns650="http://example.org/data/realestate#" />
+    <ns651:Use xmlns:ns651="http://example.org/data/realestate#">House</ns651:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos57">
+    <csvw:describes rdf:nodeID="autos58" />
+    <csvw:rownum rdf:datatype="&xsd;integer">28</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=29" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos58">
+    <ns652:Area rdf:resource="http://example.org/data/realestate#Saiwai" xmlns:ns652="http://example.org/data/realestate#" />
+    <ns653:City_Planning rdf:resource="http://example.org/data/realestate#Near_Commercial_District" xmlns:ns653="http://example.org/data/realestate#" />
+    <ns654:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns654="http://example.org/data/realestate#" />
+    <ns655:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns655="http://example.org/data/realestate#" />
+    <ns656:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns656="http://example.org/data/realestate#" />
+    <ns657:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns657="http://example.org/data/realestate#" />
+    <ns658:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns658="http://example.org/data/realestate#" />
+    <ns659:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns659="http://example.org/data/realestate#" />
+    <ns660:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns660="http://example.org/data/realestate#" />
+    <ns661:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns661="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos59">
+    <csvw:describes rdf:nodeID="autos60" />
+    <csvw:rownum rdf:datatype="&xsd;integer">29</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=30" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos6">
+    <ns662:Area rdf:resource="http://example.org/data/realestate#Aoinishi" xmlns:ns662="http://example.org/data/realestate#" />
+    <ns663:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns663="http://example.org/data/realestate#" />
+    <ns664:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns664="http://example.org/data/realestate#" />
+    <ns665:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns665="http://example.org/data/realestate#" />
+    <ns666:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns666="http://example.org/data/realestate#" />
+    <ns667:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns667="http://example.org/data/realestate#" />
+    <ns668:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns668="http://example.org/data/realestate#" />
+    <ns669:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns669="http://example.org/data/realestate#" />
+    <ns670:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns670="http://example.org/data/realestate#" />
+    <ns671:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns671="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="autos60">
+    <ns672:Area rdf:resource="http://example.org/data/realestate#Sato" xmlns:ns672="http://example.org/data/realestate#" />
+    <ns673:City_Planning rdf:resource="http://example.org/data/realestate#Near_Commercial_District" xmlns:ns673="http://example.org/data/realestate#" />
+    <ns674:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns674="http://example.org/data/realestate#" />
+    <ns675:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns675="http://example.org/data/realestate#" />
+    <ns676:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#21" xmlns:ns676="http://example.org/data/realestate#" />
+    <ns677:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns677="http://example.org/data/realestate#" />
+    <ns678:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns678="http://example.org/data/realestate#" />
+    <ns679:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns679="http://example.org/data/realestate#" />
+    <ns680:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns680="http://example.org/data/realestate#" />
+    <ns681:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns681="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos61">
+    <csvw:describes rdf:nodeID="autos62" />
+    <csvw:rownum rdf:datatype="&xsd;integer">30</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=31" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos62">
+    <ns682:Area rdf:resource="http://example.org/data/realestate#Sanarudai" xmlns:ns682="http://example.org/data/realestate#" />
+    <ns683:City_Planning rdf:resource="http://example.org/data/realestate#Category_2_Residential_District" xmlns:ns683="http://example.org/data/realestate#" />
+    <ns684:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns684="http://example.org/data/realestate#" />
+    <ns685:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns685="http://example.org/data/realestate#" />
+    <ns686:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns686="http://example.org/data/realestate#" />
+    <ns687:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns687="http://example.org/data/realestate#" />
+    <ns688:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns688="http://example.org/data/realestate#" />
+    <ns689:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns689="http://example.org/data/realestate#" />
+    <ns690:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns690="http://example.org/data/realestate#" />
+    <ns691:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns691="http://example.org/data/realestate#" />
+    <ns692:Use xmlns:ns692="http://example.org/data/realestate#">Housing Complex</ns692:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos63">
+    <csvw:describes rdf:nodeID="autos64" />
+    <csvw:rownum rdf:datatype="&xsd;integer">31</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=32" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos64">
+    <ns693:Area rdf:resource="http://example.org/data/realestate#Sanarudai" xmlns:ns693="http://example.org/data/realestate#" />
+    <ns694:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns694="http://example.org/data/realestate#" />
+    <ns695:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns695="http://example.org/data/realestate#" />
+    <ns696:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns696="http://example.org/data/realestate#" />
+    <ns697:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns697="http://example.org/data/realestate#" />
+    <ns698:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns698="http://example.org/data/realestate#" />
+    <ns699:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns699="http://example.org/data/realestate#" />
+    <ns700:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns700="http://example.org/data/realestate#" />
+    <ns701:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns701="http://example.org/data/realestate#" />
+    <ns702:Use xmlns:ns702="http://example.org/data/realestate#">House</ns702:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos65">
+    <csvw:describes rdf:nodeID="autos66" />
+    <csvw:rownum rdf:datatype="&xsd;integer">32</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=33" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos66">
+    <ns703:Area rdf:resource="http://example.org/data/realestate#Shiomachi" xmlns:ns703="http://example.org/data/realestate#" />
+    <ns704:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns704="http://example.org/data/realestate#" />
+    <ns705:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns705="http://example.org/data/realestate#" />
+    <ns706:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns706="http://example.org/data/realestate#" />
+    <ns707:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#9" xmlns:ns707="http://example.org/data/realestate#" />
+    <ns708:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns708="http://example.org/data/realestate#" />
+    <ns709:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns709="http://example.org/data/realestate#" />
+    <ns710:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns710="http://example.org/data/realestate#" />
+    <ns711:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns711="http://example.org/data/realestate#" />
+    <ns712:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns712="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos67">
+    <csvw:describes rdf:nodeID="autos68" />
+    <csvw:rownum rdf:datatype="&xsd;integer">33</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=34" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos68">
+    <ns713:Area rdf:resource="http://example.org/data/realestate#Shikatanicho" xmlns:ns713="http://example.org/data/realestate#" />
+    <ns714:City_Planning rdf:resource="http://example.org/data/realestate#Category_2_Residential_District" xmlns:ns714="http://example.org/data/realestate#" />
+    <ns715:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns715="http://example.org/data/realestate#" />
+    <ns716:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns716="http://example.org/data/realestate#" />
+    <ns717:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#29" xmlns:ns717="http://example.org/data/realestate#" />
+    <ns718:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns718="http://example.org/data/realestate#" />
+    <ns719:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns719="http://example.org/data/realestate#" />
+    <ns720:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns720="http://example.org/data/realestate#" />
+    <ns721:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns721="http://example.org/data/realestate#" />
+    <ns722:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns722="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos69">
+    <csvw:describes rdf:nodeID="autos70" />
+    <csvw:rownum rdf:datatype="&xsd;integer">34</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=35" />
+  </csvw:Row>
+  <csvw:Row rdf:nodeID="autos7">
+    <csvw:describes rdf:nodeID="autos8" />
+    <csvw:rownum rdf:datatype="&xsd;integer">3</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=4" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos70">
+    <ns723:Area rdf:resource="http://example.org/data/realestate#Shijimizuka" xmlns:ns723="http://example.org/data/realestate#" />
+    <ns724:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns724="http://example.org/data/realestate#" />
+    <ns725:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns725="http://example.org/data/realestate#" />
+    <ns726:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns726="http://example.org/data/realestate#" />
+    <ns727:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns727="http://example.org/data/realestate#" />
+    <ns728:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns728="http://example.org/data/realestate#" />
+    <ns729:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns729="http://example.org/data/realestate#" />
+    <ns730:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns730="http://example.org/data/realestate#" />
+    <ns731:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns731="http://example.org/data/realestate#" />
+    <ns732:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns732="http://example.org/data/realestate#" />
+    <ns733:Use xmlns:ns733="http://example.org/data/realestate#">Other</ns733:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos71">
+    <csvw:describes rdf:nodeID="autos72" />
+    <csvw:rownum rdf:datatype="&xsd;integer">35</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=36" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos72">
+    <ns734:Area rdf:resource="http://example.org/data/realestate#Shijimizuka" xmlns:ns734="http://example.org/data/realestate#" />
+    <ns735:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Mid_high_Rise_Residential_District" xmlns:ns735="http://example.org/data/realestate#" />
+    <ns736:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns736="http://example.org/data/realestate#" />
+    <ns737:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns737="http://example.org/data/realestate#" />
+    <ns738:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns738="http://example.org/data/realestate#" />
+    <ns739:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns739="http://example.org/data/realestate#" />
+    <ns740:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns740="http://example.org/data/realestate#" />
+    <ns741:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns741="http://example.org/data/realestate#" />
+    <ns742:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns742="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos73">
+    <csvw:describes rdf:nodeID="autos74" />
+    <csvw:rownum rdf:datatype="&xsd;integer">36</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=37" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos74">
+    <ns743:Area rdf:resource="http://example.org/data/realestate#Shimoikegawacho" xmlns:ns743="http://example.org/data/realestate#" />
+    <ns744:City_Planning rdf:resource="http://example.org/data/realestate#Category_2_Residential_District" xmlns:ns744="http://example.org/data/realestate#" />
+    <ns745:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns745="http://example.org/data/realestate#" />
+    <ns746:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns746="http://example.org/data/realestate#" />
+    <ns747:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#23" xmlns:ns747="http://example.org/data/realestate#" />
+    <ns748:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns748="http://example.org/data/realestate#" />
+    <ns749:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns749="http://example.org/data/realestate#" />
+    <ns750:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns750="http://example.org/data/realestate#" />
+    <ns751:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns751="http://example.org/data/realestate#" />
+    <ns752:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns752="http://example.org/data/realestate#" />
+    <ns753:Use xmlns:ns753="http://example.org/data/realestate#">House</ns753:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos75">
+    <csvw:describes rdf:nodeID="autos76" />
+    <csvw:rownum rdf:datatype="&xsd;integer">37</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=38" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos76">
+    <ns754:Area rdf:resource="http://example.org/data/realestate#Sukenobucho" xmlns:ns754="http://example.org/data/realestate#" />
+    <ns755:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns755="http://example.org/data/realestate#" />
+    <ns756:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns756="http://example.org/data/realestate#" />
+    <ns757:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns757="http://example.org/data/realestate#" />
+    <ns758:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#24" xmlns:ns758="http://example.org/data/realestate#" />
+    <ns759:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns759="http://example.org/data/realestate#" />
+    <ns760:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns760="http://example.org/data/realestate#" />
+    <ns761:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns761="http://example.org/data/realestate#" />
+    <ns762:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns762="http://example.org/data/realestate#" />
+    <ns763:Use xmlns:ns763="http://example.org/data/realestate#">House</ns763:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos77">
+    <csvw:describes rdf:nodeID="autos78" />
+    <csvw:rownum rdf:datatype="&xsd;integer">38</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=39" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos78">
+    <ns764:Area rdf:resource="http://example.org/data/realestate#Sunayamacho" xmlns:ns764="http://example.org/data/realestate#" />
+    <ns765:City_Planning rdf:resource="http://example.org/data/realestate#Commercial_District" xmlns:ns765="http://example.org/data/realestate#" />
+    <ns766:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns766="http://example.org/data/realestate#" />
+    <ns767:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns767="http://example.org/data/realestate#" />
+    <ns768:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#4" xmlns:ns768="http://example.org/data/realestate#" />
+    <ns769:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns769="http://example.org/data/realestate#" />
+    <ns770:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns770="http://example.org/data/realestate#" />
+    <ns771:Region rdf:resource="http://example.org/data/realestate#Commercial_Area" xmlns:ns771="http://example.org/data/realestate#" />
+    <ns772:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns772="http://example.org/data/realestate#" />
+    <ns773:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns773="http://example.org/data/realestate#" />
+    <ns774:Use xmlns:ns774="http://example.org/data/realestate#">Shop</ns774:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos79">
+    <csvw:describes rdf:nodeID="autos80" />
+    <csvw:rownum rdf:datatype="&xsd;integer">39</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=40" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos8">
+    <ns775:Area rdf:resource="http://example.org/data/realestate#Aoihigashi" xmlns:ns775="http://example.org/data/realestate#" />
+    <ns776:City_Planning rdf:resource="http://example.org/data/realestate#Near_Commercial_District" xmlns:ns776="http://example.org/data/realestate#" />
+    <ns777:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns777="http://example.org/data/realestate#" />
+    <ns778:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns778="http://example.org/data/realestate#" />
+    <ns779:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H_1H30" xmlns:ns779="http://example.org/data/realestate#" />
+    <ns780:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns780="http://example.org/data/realestate#" />
+    <ns781:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns781="http://example.org/data/realestate#" />
+    <ns782:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns782="http://example.org/data/realestate#" />
+    <ns783:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns783="http://example.org/data/realestate#" />
+    <ns784:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns784="http://example.org/data/realestate#" />
+    <ns785:Use xmlns:ns785="http://example.org/data/realestate#">Housing Complex</ns785:Use>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="autos80">
+    <ns786:Area rdf:resource="http://example.org/data/realestate#Sumiyoshi" xmlns:ns786="http://example.org/data/realestate#" />
+    <ns787:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Exclusive_Low_Rise_Residential_District" xmlns:ns787="http://example.org/data/realestate#" />
+    <ns788:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns788="http://example.org/data/realestate#" />
+    <ns789:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns789="http://example.org/data/realestate#" />
+    <ns790:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#30_60minutes" xmlns:ns790="http://example.org/data/realestate#" />
+    <ns791:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns791="http://example.org/data/realestate#" />
+    <ns792:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns792="http://example.org/data/realestate#" />
+    <ns793:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns793="http://example.org/data/realestate#" />
+    <ns794:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns794="http://example.org/data/realestate#" />
+    <ns795:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns795="http://example.org/data/realestate#" />
+    <ns796:Use xmlns:ns796="http://example.org/data/realestate#">House</ns796:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos81">
+    <csvw:describes rdf:nodeID="autos82" />
+    <csvw:rownum rdf:datatype="&xsd;integer">40</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=41" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos82">
+    <ns797:Area rdf:resource="http://example.org/data/realestate#Takaokakita" xmlns:ns797="http://example.org/data/realestate#" />
+    <ns798:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns798="http://example.org/data/realestate#" />
+    <ns799:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns799="http://example.org/data/realestate#" />
+    <ns800:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns800="http://example.org/data/realestate#" />
+    <ns801:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns801="http://example.org/data/realestate#" />
+    <ns802:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns802="http://example.org/data/realestate#" />
+    <ns803:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns803="http://example.org/data/realestate#" />
+    <ns804:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns804="http://example.org/data/realestate#" />
+    <ns805:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns805="http://example.org/data/realestate#" />
+    <ns806:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns806="http://example.org/data/realestate#" />
+    <ns807:Use xmlns:ns807="http://example.org/data/realestate#">Housing Complex, Office</ns807:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos83">
+    <csvw:describes rdf:nodeID="autos84" />
+    <csvw:rownum rdf:datatype="&xsd;integer">41</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=42" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos84">
+    <ns808:Area rdf:resource="http://example.org/data/realestate#Takaokakita" xmlns:ns808="http://example.org/data/realestate#" />
+    <ns809:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns809="http://example.org/data/realestate#" />
+    <ns810:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns810="http://example.org/data/realestate#" />
+    <ns811:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns811="http://example.org/data/realestate#" />
+    <ns812:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns812="http://example.org/data/realestate#" />
+    <ns813:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns813="http://example.org/data/realestate#" />
+    <ns814:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns814="http://example.org/data/realestate#" />
+    <ns815:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns815="http://example.org/data/realestate#" />
+    <ns816:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns816="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos85">
+    <csvw:describes rdf:nodeID="autos86" />
+    <csvw:rownum rdf:datatype="&xsd;integer">42</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=43" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos86">
+    <ns817:Area rdf:resource="http://example.org/data/realestate#Takaokakita" xmlns:ns817="http://example.org/data/realestate#" />
+    <ns818:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns818="http://example.org/data/realestate#" />
+    <ns819:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns819="http://example.org/data/realestate#" />
+    <ns820:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns820="http://example.org/data/realestate#" />
+    <ns821:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns821="http://example.org/data/realestate#" />
+    <ns822:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns822="http://example.org/data/realestate#" />
+    <ns823:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns823="http://example.org/data/realestate#" />
+    <ns824:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns824="http://example.org/data/realestate#" />
+    <ns825:Type rdf:resource="http://example.org/data/realestate#Pre_owned_Condominiums_etc" xmlns:ns825="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos87">
+    <csvw:describes rdf:nodeID="autos88" />
+    <csvw:rownum rdf:datatype="&xsd;integer">43</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=44" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos88">
+    <ns826:Area rdf:resource="http://example.org/data/realestate#Takaokanishi" xmlns:ns826="http://example.org/data/realestate#" />
+    <ns827:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns827="http://example.org/data/realestate#" />
+    <ns828:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns828="http://example.org/data/realestate#" />
+    <ns829:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns829="http://example.org/data/realestate#" />
+    <ns830:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns830="http://example.org/data/realestate#" />
+    <ns831:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns831="http://example.org/data/realestate#" />
+    <ns832:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns832="http://example.org/data/realestate#" />
+    <ns833:Region rdf:resource="http://example.org/data/realestate#Industrial_Area" xmlns:ns833="http://example.org/data/realestate#" />
+    <ns834:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns834="http://example.org/data/realestate#" />
+    <ns835:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns835="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos89">
+    <csvw:describes rdf:nodeID="autos90" />
+    <csvw:rownum rdf:datatype="&xsd;integer">44</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=45" />
+  </csvw:Row>
+  <csvw:Row rdf:nodeID="autos9">
+    <csvw:describes rdf:nodeID="autos10" />
+    <csvw:rownum rdf:datatype="&xsd;integer">4</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=5" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos90">
+    <ns836:Area rdf:resource="http://example.org/data/realestate#Takaokanishi" xmlns:ns836="http://example.org/data/realestate#" />
+    <ns837:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns837="http://example.org/data/realestate#" />
+    <ns838:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns838="http://example.org/data/realestate#" />
+    <ns839:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns839="http://example.org/data/realestate#" />
+    <ns840:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns840="http://example.org/data/realestate#" />
+    <ns841:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns841="http://example.org/data/realestate#" />
+    <ns842:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns842="http://example.org/data/realestate#" />
+    <ns843:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns843="http://example.org/data/realestate#" />
+    <ns844:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns844="http://example.org/data/realestate#" />
+    <ns845:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns845="http://example.org/data/realestate#" />
+    <ns846:Use xmlns:ns846="http://example.org/data/realestate#">Housing Complex</ns846:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos91">
+    <csvw:describes rdf:nodeID="autos92" />
+    <csvw:rownum rdf:datatype="&xsd;integer">45</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=46" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos92">
+    <ns847:Area rdf:resource="http://example.org/data/realestate#Takaokanishi" xmlns:ns847="http://example.org/data/realestate#" />
+    <ns848:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns848="http://example.org/data/realestate#" />
+    <ns849:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns849="http://example.org/data/realestate#" />
+    <ns850:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns850="http://example.org/data/realestate#" />
+    <ns851:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns851="http://example.org/data/realestate#" />
+    <ns852:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns852="http://example.org/data/realestate#" />
+    <ns853:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns853="http://example.org/data/realestate#" />
+    <ns854:Region rdf:resource="http://example.org/data/realestate#Industrial_Area" xmlns:ns854="http://example.org/data/realestate#" />
+    <ns855:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns855="http://example.org/data/realestate#" />
+    <ns856:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns856="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos93">
+    <csvw:describes rdf:nodeID="autos94" />
+    <csvw:rownum rdf:datatype="&xsd;integer">46</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=47" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos94">
+    <ns857:Area rdf:resource="http://example.org/data/realestate#Takaokanishi" xmlns:ns857="http://example.org/data/realestate#" />
+    <ns858:City_Planning rdf:resource="http://example.org/data/realestate#Industrial_District" xmlns:ns858="http://example.org/data/realestate#" />
+    <ns859:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns859="http://example.org/data/realestate#" />
+    <ns860:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns860="http://example.org/data/realestate#" />
+    <ns861:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns861="http://example.org/data/realestate#" />
+    <ns862:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns862="http://example.org/data/realestate#" />
+    <ns863:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns863="http://example.org/data/realestate#" />
+    <ns864:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns864="http://example.org/data/realestate#" />
+    <ns865:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns865="http://example.org/data/realestate#" />
+    <ns866:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns866="http://example.org/data/realestate#" />
+    <ns867:Use xmlns:ns867="http://example.org/data/realestate#">House</ns867:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos95">
+    <csvw:describes rdf:nodeID="autos96" />
+    <csvw:rownum rdf:datatype="&xsd;integer">47</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=48" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos96">
+    <ns868:Area rdf:resource="http://example.org/data/realestate#Takaokahigashi" xmlns:ns868="http://example.org/data/realestate#" />
+    <ns869:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns869="http://example.org/data/realestate#" />
+    <ns870:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns870="http://example.org/data/realestate#" />
+    <ns871:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns871="http://example.org/data/realestate#" />
+    <ns872:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns872="http://example.org/data/realestate#" />
+    <ns873:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns873="http://example.org/data/realestate#" />
+    <ns874:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns874="http://example.org/data/realestate#" />
+    <ns875:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns875="http://example.org/data/realestate#" />
+    <ns876:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns876="http://example.org/data/realestate#" />
+    <ns877:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_and_Building" xmlns:ns877="http://example.org/data/realestate#" />
+    <ns878:Use xmlns:ns878="http://example.org/data/realestate#">House</ns878:Use>
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos97">
+    <csvw:describes rdf:nodeID="autos98" />
+    <csvw:rownum rdf:datatype="&xsd;integer">48</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=49" />
+  </csvw:Row>
+  <rdf:Description rdf:nodeID="autos98">
+    <ns879:Area rdf:resource="http://example.org/data/realestate#Takaokahigashi" xmlns:ns879="http://example.org/data/realestate#" />
+    <ns880:City_Planning rdf:resource="http://example.org/data/realestate#Category_1_Residential_District" xmlns:ns880="http://example.org/data/realestate#" />
+    <ns881:City_Town_Ward_Village rdf:resource="http://example.org/data/realestate#Naka_Ward_Hamamatsu_City" xmlns:ns881="http://example.org/data/realestate#" />
+    <ns882:City_Town_Ward_Village_code rdf:resource="http://example.org/data/realestate#22131" xmlns:ns882="http://example.org/data/realestate#" />
+    <ns883:Nearest_station_FDistance_minute rdf:resource="http://example.org/data/realestate#1H30_2H" xmlns:ns883="http://example.org/data/realestate#" />
+    <ns884:Nearest_station_FName rdf:resource="http://example.org/data/realestate#Hamamatsu" xmlns:ns884="http://example.org/data/realestate#" />
+    <ns885:Prefecture rdf:resource="http://example.org/data/realestate#Shizuoka_Prefecture" xmlns:ns885="http://example.org/data/realestate#" />
+    <ns886:Region rdf:resource="http://example.org/data/realestate#Residential_Area" xmlns:ns886="http://example.org/data/realestate#" />
+    <ns887:Transaction_period rdf:resource="http://example.org/data/realestate#4th_quarter_2017" xmlns:ns887="http://example.org/data/realestate#" />
+    <ns888:Type rdf:resource="http://example.org/data/realestate#Residential_Land_Land_Only" xmlns:ns888="http://example.org/data/realestate#" />
+  </rdf:Description>
+  <csvw:Row rdf:nodeID="autos99">
+    <csvw:describes rdf:nodeID="autos100" />
+    <csvw:rownum rdf:datatype="&xsd;integer">49</csvw:rownum>
+    <csvw:url rdf:resource="http://example.org/data/22131_20174_20174_e.csv#row=50" />
+  </csvw:Row>
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<gn:Feature rdf:about="http://sws.geonames.org/1850481/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1850481/about.rdf"/>
+<gn:name>Tatsuyama-mura</gn:name>
+<gn:nearby rdf:resource="http://sws.geonames.org/1863288/"/>
+</gn:Feature>
+<gn:Feature rdf:about="http://sws.geonames.org/7573568/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/7573568/about.rdf"/>
+<gn:name>Akiha-damu</gn:name>
+<gn:nearby rdf:resource="http://sws.geonames.org/1863288/"/>
+</gn:Feature>
+<gn:Feature rdf:about="http://sws.geonames.org/1850392/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1850392/about.rdf"/>
+<gn:name>Tenryū-shi</gn:name>
+<gn:nearby rdf:resource="http://sws.geonames.org/1863288/"/>
+</gn:Feature>
+<gn:Feature rdf:about="http://sws.geonames.org/1859538/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1859538/about.rdf"/>
+<gn:name>Keta-gawa</gn:name>
+<gn:nearby rdf:resource="http://sws.geonames.org/1863288/"/>
+</gn:Feature>
+<gn:Feature rdf:about="http://sws.geonames.org/1855326/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1855326/about.rdf"/>
+<gn:name>Nishi-fujidaira</gn:name>
+<gn:nearby rdf:resource="http://sws.geonames.org/1863288/"/>
+</gn:Feature>
+<gn:Feature rdf:about="http://sws.geonames.org/1851896/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1851896/about.rdf"/>
+<gn:name>Shirakura-yama</gn:name>
+<gn:nearby rdf:resource="http://sws.geonames.org/1863288/"/>
+</gn:Feature>
+<gn:Feature rdf:about="http://sws.geonames.org/1865440/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1865440/about.rdf"/>
+<gn:name>Akiha-san</gn:name>
+<gn:nearby rdf:resource="http://sws.geonames.org/1863288/"/>
+</gn:Feature>
+<gn:Feature rdf:about="http://sws.geonames.org/1857075/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1857075/about.rdf"/>
+<gn:name>Minenosawa</gn:name>
+<gn:nearby rdf:resource="http://sws.geonames.org/1863288/"/>
+</gn:Feature>
+<gn:Feature rdf:about="http://sws.geonames.org/1861169/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1861169/about.rdf"/>
+<gn:name>Iwata-gun</gn:name>
+<gn:nearby rdf:resource="http://sws.geonames.org/1863288/"/>
+</gn:Feature>
+</rdf:RDF>

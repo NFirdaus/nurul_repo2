@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+  <head>
+  	<!-- Include Google Maps JS API -->
+	<script type="text/javascript"
+	src="https://maps.googleapis.com/maps/api/js?
+	key=AIzaSyCmtW37I0NpikDkqw_SVYx33ClJO0coKYk&sensor=false">
+	</script>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+    <style type="text/css">* { border: 0px; padding: 0px; margin: 0px; outline: none;zoom:0; }html { overflow: auto; }</style>
+    function startButtonEvents () {
+document.getElementById('btnZoomToIst'
+).addEventListener('click', function(){
+zoomToIstanbul();
+});
+document.getElementById('btnZoomToStr'
+).addEventListener('click', function(){
+zoomToStreet();
+});
+document.getElementById('btnDisableDrag'
+).addEventListener('click', function(){
+disableDrag();
+});
+document.getElementById('btnMaxZoom'
+).addEventListener('click', function(){
+setMaxZoom();
+});
+document.getElementById('btnMinZoom'
+).addEventListener('click', function(){
+setMinZoom();
+});
+document.getElementById('btnChangeUI'
+).addEventListener('click', function(){
+changeUI();
+});
+document.getElementById('btnDisableScroll'
+).addEventListener('click', function(){
+disableScroll();
+});
+  </head>
+<iframe
+  width="600"
+  height="350"
+  frameborder="0" style="border:0"
+ src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmtW37I0NpikDkqw_SVYx33ClJO0coKYk&q=Act City+Hamamatsu,Japan" allowfullscreen>
+
+</iframe>
+
+</html>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1MuJldYrVuxiQSB3UBaEw1HayB0qkjjFR" width="640" height="480"></iframe>
+
+
+        // Try HTML5 geolocation.
+        
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+
+            infoWindow.setPosition(pos);
+            infoWindow.setContent('Location found.');
+            infoWindow.open(map);
+            map.setCenter(pos);
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+      }
+
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: The Geolocation service failed.' :
+                              'Error: Your browser doesn\'t support geolocation.');
+        infoWindow.open(map);
+
+
+        var geocoder = new google.maps.Geocoder;
+        
+        var input = document.getElementById('pac-input');
+        
+        var autocomplete = new google.maps.places.Autocomplete(
+            input, {placeIdOnly: true});
+        autocomplete.bindTo('bounds', map);
+
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+ 
+        
+        autocomplete.addListener('place_changed', function() {
+          infowindow.close();
+          var place = autocomplete.getPlace();
+
+          if (!place.place_id) {
+            return;
+          }
+          
+          geocoder.geocode({'placeId': place.place_id}, function(results, status) {
+
+            if (status !== 'OK') {
+              window.alert('Geocoder failed due to: ' + status);
+              return;
+            }
+            map.setZoom(11);
+            map.setCenter(results[0].geometry.location);
+            // Set the position of the marker using the place ID and location.
+            marker.setPlace({
+              placeId: place.place_id,
+              location: results[0].geometry.location
+            });
+
+
+   function initAutocomplete() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -33.8688, lng: 151.2195},
+          zoom: 13,
+          mapTypeId: 'roadmap'
+        });
+
+        // Create the search box and link it to the UI element.
+        var input = document.getElementById('pac-input');
+        var searchBox = new google.maps.places.SearchBox(input);
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+        // Bias the SearchBox results towards current map's viewport.
+        map.addListener('bounds_changed', function() {
+          searchBox.setBounds(map.getBounds());
+        });
+
+        var markers = [];
+        // Listen for the event fired when the user selects a prediction and retrieve
+        // more details for that place.
+        searchBox.addListener('places_changed', function() {
+          var places = searchBox.getPlaces();
+
+          if (places.length == 0) {
+            return;
+          }
+
+          // Clear out the old markers.
+          markers.forEach(function(marker) {
+            marker.setMap(null);
+          });
+          markers = [];
+
+          // For each place, get the icon, name and location.
+          var bounds = new google.maps.LatLngBounds();
+          places.forEach(function(place) {
+            if (!place.geometry) {
+              console.log("Returned place contains no geometry");
+              return;
+            }
+            var icon = {
+              url: place.icon,
+              size: new google.maps.Size(71, 71),
+              origin: new google.maps.Point(0, 0),
+              anchor: new google.maps.Point(17, 34),
+              scaledSize: new google.maps.Size(25, 25)
+            };
+
+            // Create a marker for each place.
+            markers.push(new google.maps.Marker({
+              map: map,
+              icon: icon,
+              title: place.name,
+              position: place.geometry.location
+            }));
+
+            if (place.geometry.viewport) {
+              // Only geocodes have viewport.
+              bounds.union(place.geometry.viewport);
+            } else {
+              bounds.extend(place.geometry.location);
+            }
+          });
+          map.fitBounds(bounds);
+        });
+      }
+
+      <!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple click event</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      var map, infoWindow, marker, infoWindow, contentString;
+      function initMap() {
+        var myLatlng = {lat: 34.71285960000002, lng: 137.70639549999999};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: myLatlng
+        });
+        
+        contentString = '<b> :) Good Location <b>';
+       
+        infowindow = new google.maps.InfoWindow({
+        content: contentString
+        });
+
+        
+        marker = new google.maps.Marker({
+          map: map,
+          draggable: true,
+          animation: google.maps.Animation.DROP,
+          position: {lat: 34.71285960000002, lng: 137.70639549999999}
+        });
+        marker.addListener('click', toggleBounce);
+        marker.addListener('click', function() {
+        infowindow.open(map, marker);
+  });
+
+      }
+
+      function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+          marker.setAnimation(null);
+        } else {
+          marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+
+
+       // marker.addListener('click', function() {
+       //   map.setZoom(8);
+        //  map.setCenter(marker.getPosition());
+      //  });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmtW37I0NpikDkqw_SVYx33ClJO0coKYk&callback=initMap">
+    </script>
+  </body>
+</html>
+
+https://maps.googleapis.com/maps/api/place/nearbysearch/xml?location=23.006000,72.601100&types=point_of_interest&radius=50000&sensor=false&key=AIzaSyCmtW37I0NpikDkqw_SVYx33ClJO0coKYk
+
+34.7050604,137.7335053
+
+      
+

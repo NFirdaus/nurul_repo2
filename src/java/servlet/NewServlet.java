@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author nurulfirdaus
  */
-@WebServlet(name = "NewServlet", urlPatterns = {"/index.html"})
+@WebServlet(name = "NewServlet", urlPatterns = {"/NewServlet"})
 public class NewServlet extends HttpServlet {
 
     /**
@@ -31,7 +31,6 @@ public class NewServlet extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
@@ -46,6 +45,7 @@ public class NewServlet extends HttpServlet {
             out.println("</html>");
         }
     }
+
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
