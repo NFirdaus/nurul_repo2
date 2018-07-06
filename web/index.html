@@ -221,8 +221,23 @@ and open the template in the editor.
               position: place.geometry.location
             // }));
             });
-            contentString = "<b> :) Good Location <b> \n" +
-                            "<b> | Factory is usually cannot be build <b>";
+
+            const lat = place.geometry.location.lat();
+            const lng = place.geometry.location.lng();
+            let contentString;
+            $.ajax({
+              type: "GET",
+              url: "http://localhost:9000/api/hoge",
+              async: false,
+              data: {lat: lat, lng: lng}
+            }).done(function(data){
+              console.log(data);
+              contentString = "<b> :) Good Location </b> \n" +
+                              "<b> | Factory is usually cannot be build </b>";
+
+            }).fail(function(data){
+              contentString = "<b>Error (T^T)/</b>\n"+ data;
+            });
            
             infowindow = new google.maps.InfoWindow({
             content: contentString
@@ -278,18 +293,5 @@ and open the template in the editor.
     </tr>
   </tbody>
   </table>
-    
-
-    <!--
-    <div>CLass: <span id="typeClass"></span></div>
-    <script>
-        $.getJSON('http://api.geonames.org/findNearbyPOIsOSMJSON?&username=nurul_firdaus')
-                .done (function(findNearbyPOIsOSMJSON){
-                  $('#typeClass') .html(findNearbyPOIsOSMJSON.getOwnPropertySymbols()) ;
-        });
-    </script>
-    -->
-   <!-- http://api.geonames.org/findNearbyPOIsOSMJSON?lat=37.451&lng=-122.18&username=demo
-http://api.geonames.org/findNearbyPOIsOSM?lat=34.71285960000002&lng=137.70639549999999.18&username=nurul_firdaus-->
   </body>
 </html>
